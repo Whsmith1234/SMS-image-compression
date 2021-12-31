@@ -1,6 +1,5 @@
 let input;
 var something = "0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()-=_+[]\{}|;':,./<>?";
-console.log(something.length);
 let img;
 var width1 =60;
 var width2 =window.innerWidth;
@@ -71,8 +70,6 @@ function drawpix(pix){
         }
     }
     dPix2();
-    console.log(pix);
-    console.log(Base);
 }
 function dPix2(){
   noStroke();
